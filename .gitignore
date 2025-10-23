@@ -1,0 +1,7 @@
+*.deb
+extracted/
+DEBIAN/
+src/
+pkg/
+*.pkg.tar.*
+*.log
