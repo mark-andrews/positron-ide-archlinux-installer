@@ -15,7 +15,7 @@ This PKGBUILD was created to address file corruption issues with the `copilot-la
 
 ## Prerequisites
 
-1. **Download the Positron deb package** from [Posit's website](https://www.posit.co/download/positron/)
+1. **Download the Positron deb package** from [Posit's website](https://positron.posit.co/download.html)
 2. Place the `Positron-2025.10.1-4-x64.deb` file in the same directory as this PKGBUILD
 
 ## Installation
@@ -26,7 +26,7 @@ git clone <your-repo-url>
 cd positron-2025.10.1-4-x64-arch
 
 # Download the Positron deb file (place it in this directory)
-# Get it from: https://www.posit.co/download/positron/
+# Get it from: https://positron.posit.co/download.html
 
 # Build and install
 makepkg -si
