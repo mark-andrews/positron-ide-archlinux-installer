@@ -1,8 +1,9 @@
-# Positron IDE - Arch Linux PKGBUILD
+# Positron PKGBUILD
+Custom PKGBUILD for Positron IDE with integrity protection.
 
-Custom PKGBUILD for installing Positron IDE on Arch Linux with **enhanced file integrity protection** to prevent Copilot corruption issues.
+This PKGBUILD was created with assistance from GitHub Copilot using Claude 3.5 Sonnet.
 
-## Why This PKGBUILD?
+## Files to commit:
 
 This PKGBUILD was created to address file corruption issues with the `copilot-language-server` that occurred with existing AUR packages, causing GitHub Copilot to malfunction in Positron on Arch Linux.
 
@@ -57,6 +58,17 @@ If the build fails with integrity check errors, this means:
 - The extraction process is corrupting files
 
 **This is exactly what this PKGBUILD is designed to catch and prevent!**
+
+## Disclaimer
+
+This PKGBUILD was created primarily for personal use to solve a specific issue with Positron on Arch Linux. While it works well for my setup and others are welcome to use it, please note:
+
+- **Use at your own risk** - This is a personal project, not an official package
+- **No warranties or guarantees** - I provide this as-is with no support obligations
+- **Test first** - Consider testing in a VM or non-critical system before main installation
+- **Community contribution** - Feel free to fork, modify, or contribute improvements
+
+If you encounter issues, you're welcome to open an issue, but please understand this is a hobby project with no guaranteed response time or resolution.
 
 ## License
 
