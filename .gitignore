@@ -5,3 +5,5 @@ src/
 pkg/
 *.pkg.tar.*
 *.log
+PKGBUILD.backup
+.github/copilot-instructions.md

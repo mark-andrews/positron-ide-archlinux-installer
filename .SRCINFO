@@ -1,6 +1,6 @@
 pkgbase = positron-bin
 	pkgdesc = A next-generation data science IDE
-	pkgver = 2025.10.1.4
+	pkgver = 2025.11.0.234
 	pkgrel = 1
 	url = https://www.posit.co/
 	arch = x86_64
@@ -37,8 +37,10 @@ pkgbase = positron-bin
 	optdepends = vulkan-icd-loader: for vulkan support
 	provides = positron
 	conflicts = positron
-	noextract = Positron-2025-10-1-4-x64.deb
-	source = Positron-2025-10-1-4-x64.deb
-	sha256sums = c6ee0320d2bdb7e93a064130c21f47fffa5d91b5ce87b0ba15259b00a39361c5
+	noextract = Positron-2025.10.1-4-x64.deb
+	options = !strip
+	options = !debug
+	source = Positron-2025.11.0-234-x64.deb
+	sha256sums = ac8b342e7c0ae90714308f026e40707febaea80257a4d1d104da56a4181ddcfa
 
 pkgname = positron-bin

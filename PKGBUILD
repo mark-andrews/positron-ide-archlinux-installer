@@ -1,7 +1,7 @@
 # Maintainer: Andrews
 options=("!strip" "!debug")
 pkgname=positron-bin
-pkgver=2025.10.1.4
+pkgver=2025.11.0.234
 pkgrel=1
 pkgdesc="A next-generation data science IDE"
 arch=('x86_64')
@@ -15,13 +15,13 @@ depends=('ca-certificates' 'alsa-lib' 'at-spi2-atk' 'atk' 'at-spi2-core' 'glibc'
 optdepends=('vulkan-icd-loader: for vulkan support')
 provides=('positron')
 conflicts=('positron')
-source=("Positron-2025.10.1-4-x64.deb")
-sha256sums=('c6ee0320d2bdb7e93a064130c21f47fffa5d91b5ce87b0ba15259b00a39361c5')
+source=("Positron-2025.11.0-234-x64.deb")
+sha256sums=('ac8b342e7c0ae90714308f026e40707febaea80257a4d1d104da56a4181ddcfa')
 noextract=("Positron-2025.10.1-4-x64.deb")
 
 prepare() {
     # Extract the deb package
-    bsdtar -xf "Positron-2025.10.1-4-x64.deb"
+    bsdtar -xf "Positron-2025.11.0-234-x64.deb"
     bsdtar -xf data.tar.xz
 }
 
