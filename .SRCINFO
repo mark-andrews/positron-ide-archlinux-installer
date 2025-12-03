@@ -1,6 +1,6 @@
 pkgbase = positron-bin
 	pkgdesc = A next-generation data science IDE
-	pkgver = 2025.11.0.234
+	pkgver = 2025.12.0.167
 	pkgrel = 1
 	url = https://www.posit.co/
 	arch = x86_64
@@ -40,7 +40,7 @@ pkgbase = positron-bin
 	noextract = Positron-2025.10.1-4-x64.deb
 	options = !strip
 	options = !debug
-	source = Positron-2025.11.0-234-x64.deb
-	sha256sums = ac8b342e7c0ae90714308f026e40707febaea80257a4d1d104da56a4181ddcfa
+	source = Positron-2025.12.0-167-x64.deb
+	sha256sums = dd9e2644de56395d308f9d53ce8c82d307d4d59bbac0401bd604c7e481504488
 
 pkgname = positron-bin
