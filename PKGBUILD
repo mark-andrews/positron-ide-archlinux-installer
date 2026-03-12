@@ -1,7 +1,7 @@
 # Maintainer: Andrews
 options=("!strip" "!debug")
 pkgname=positron-bin
-pkgver=2026.02.0.139
+pkgver=2026.03.0.212
 pkgrel=1
 pkgdesc="A next-generation data science IDE"
 arch=('x86_64')
@@ -15,11 +15,11 @@ depends=('ca-certificates' 'alsa-lib' 'at-spi2-atk' 'atk' 'at-spi2-core' 'glibc'
 optdepends=('vulkan-icd-loader: for vulkan support')
 provides=('positron')
 conflicts=('positron')
-source=("Positron-2026.02.0-139-x64.deb")
-sha256sums=('9639541d91cfa41fc4907a46b34c1df93f924f105a1ed57eef99106dbf56560d')
+source=("Positron-2026.03.0-212-x64.deb")
+sha256sums=('dfbb96c74f407057caaec7da76ce04f35bc6d805f9ef91fb1a83f2e8079c89ff')
 
 prepare() {
-    bsdtar -xf "Positron-2026.02.0-139-x64.deb"
+    bsdtar -xf "Positron-2026.03.0-212-x64.deb"
     bsdtar -xf data.tar.xz
 }
 
