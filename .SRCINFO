@@ -1,6 +1,6 @@
 pkgbase = positron-bin
 	pkgdesc = A next-generation data science IDE
-	pkgver = 2026.04.1.10
+	pkgver = 2026.06.0.211
 	pkgrel = 1
 	url = https://www.posit.co/
 	arch = x86_64
@@ -39,7 +39,7 @@ pkgbase = positron-bin
 	conflicts = positron
 	options = !strip
 	options = !debug
-	source = Positron-2026.04.1-10-x64.deb
-	sha256sums = 491cef95f76ea967e73606e07a59ca46361ea9161906a9a360762c310f9e862b
+	source = Positron-2026.06.0-211-x64.deb
+	sha256sums = 62f9f07954ca02fc594d1e7f158d555add371b1e0b15ad9f68bf99d00602b696
 
 pkgname = positron-bin
